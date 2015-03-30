@@ -4,10 +4,10 @@
     <parent>
         <artifactId>furdroid</artifactId>
         <groupId>systems.furdei</groupId>
-        <version>1.1.1</version>
+        <version>1.1.2-SNAPSHOT</version>
     </parent>
     <artifactId>furdroid-security</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2-SNAPSHOT</version>
     <packaging>aar</packaging>
     <name>furdroid-security</name>
     <description>Android secure file and database storage</description>
@@ -25,7 +25,7 @@
         <url>https://github.com/furdei/furdroid-security</url>
         <connection>scm:git:git://github.com/furdei/furdroid-security.git</connection>
         <developerConnection>scm:git:https://github.com/furdei/furdroid-security.git</developerConnection>
-        <tag>furdroid-security-1.1.1</tag>
+        <tag>furdroid-security-1.0</tag>
     </scm>
 
     <dependencies>
