@@ -21,7 +21,7 @@ project and follow the instruction.
 <dependency>
   <groupId>systems.furdei</groupId>
   <artifactId>furdroid-security</artifactId>
-  <version>1.1.1-SNAPSHOT</version>
+  <version>1.1.1</version>
 </dependency>
 ```
 
@@ -29,7 +29,7 @@ project and follow the instruction.
 
 ```groovy
 dependencies {
-  compile 'systems.furdei:furdroid-security:1.1.1-SNAPSHOT'
+  compile 'systems.furdei:furdroid-security:1.1.1'
 }
 
 ```
