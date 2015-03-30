@@ -113,12 +113,13 @@ should be as small as possible.
 Assuming you have already got contentValues - an unencrypted instance of
 ContentValues class and you want to insert a new payment into table
 *payments*. Typical steps to encrypt data:
---* Set a password and encryption settings as described above once per app launch.
---* Initialize a *Cipher* instance for encryption:
+
+* Set a password and encryption settings as described above once per app launch.
+* Initialize a *Cipher* instance for encryption:
 ```java
 Cipher cipher = EncryptionUtils.initForEncrypt();
 ```
---* Call EncryptionUtils.encryptContentValues(Cipher, ContentValues, String):
+* Call EncryptionUtils.encryptContentValues(Cipher, ContentValues, String):
 ```java
 EncryptionUtils.encryptContentValues(cipher, contentValues, "payments");
 ```
