@@ -33,7 +33,7 @@ public class EncryptedFileStorageTest extends Assert {
     public void testWriteAndRead() throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, IOException {
         System.out.println("com.furdei.furdroid.security.encryption.test.EncryptedFileStorageTest.testWriteAndRead");
         Cipher encryptCipher = EncryptionUtils.initForEncrypt();
-        String fileName = "vegatest.xml";
+        String fileName = "test.xml";
         String fileBodySrc = "My test файл 123";
         EncryptedFileStorage.writeString(encryptCipher, baseDir, fileName, fileBodySrc);
         Cipher decryptCipher = EncryptionUtils.initForDecrypt();
